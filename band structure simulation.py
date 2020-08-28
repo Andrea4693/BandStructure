@@ -1,26 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 17 22:20:19 2020
-
-@author: admin
-"""
-
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 17 11:11:27 2020
-
-@author: andrea
-"""
-
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May  1 21:27:36 2020
-
-@author: Andrea Annunziata
-"""
 
 # -*- coding: utf-8 -*-
 """
@@ -247,7 +224,7 @@ plt.figure()
 plt.title("Ay Spectrum")
 plt.plot(fev[0:15],At_spectrumy[int(Nsample/2):int(Nsample/2)+15])
 
-#%% DOVREBBE ESSERE COSI
+#WaveFunction
 vec=np.zeros((N+1)**2,dtype=complex)   
 vec=eig[1] #contiene tutti gli autovettori
 eigindex=np.argsort(eig[0])     #cerca quello della banda di valenza
